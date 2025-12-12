@@ -1,0 +1,17 @@
+firstName: "Muhammad"
+middleName: "Sayyid Rafee"
+lastName: "Djamil"
+hobbies:
+  - "Maen"
+  - "Belajar"
+  - "Bjir"
+address:
+  street: "Jalanin"
+  city: "Bogor"
+  country: "Indonesia"
+
+wallet:
+  - type: "cash"
+    amount: 100000
+  - type: "cash"
+    amount: 20000

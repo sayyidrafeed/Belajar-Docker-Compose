@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  mongodb-example:
+    image: mongo:latest
+    container_name: mongodb-example
+    ports:
+      - "27017:27017"
+    environment:
+      MONGODB_INITDB_ROOT_USERNAME: rafee
+      MONGODB_INITDB_ROOT_PASSWORD: rafee
+      MONGODB_INITDB_DATABASE: admin
+    networks:
+      - network-example
+
+networks:
+  network-example:
+    name: network-example
+    driver: bridge

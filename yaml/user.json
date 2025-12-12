@@ -1,0 +1,25 @@
+{
+  "firstName": "Muhammad Sayyid",
+  "middleName": "Rafee",
+  "lastname": "Djamil",
+  "hobbies": [
+    "maen",
+    "belajar",
+    "bjir"
+  ],
+  "address": {
+    "street": "Jalanin",
+    "city": "Bogor",
+    "country": "Indonesia"
+  },
+  "wallet": [
+    {
+      "type": "cash",
+      "amount": 100000
+    },
+    {
+      "type": "cash",
+      "amount": 20000
+    }
+  ]
+}
